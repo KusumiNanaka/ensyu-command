@@ -11,6 +11,10 @@ public class Main{
 
         bmi = weight / Math.pow(height, 2);
 
-        System.out.println("Your BMI is" + bmi);
+        int i = 0;
+        while(i<=1){
+            System.out.println("Your BMI is" + bmi);
+            i++;
+        }
     }
 }
